@@ -11,6 +11,13 @@ function App() {
     "/images/bli/2.jpeg",
     "/images/bli/3.jpeg",
     "/images/bli/4.jpeg",
+    "/images/bli/5.jpeg",
+    "/images/bli/6.jpeg",
+    "/images/bli/7.jpeg",
+    "/images/bli/8.jpeg",
+    "/images/bli/9.jpeg",
+    "/images/bli/10.jpeg",
+    "/images/bli/11.jpeg",
   ];
 
   const bandungImages = [
@@ -18,17 +25,42 @@ function App() {
     "/images/bandung/1.jpeg",
     "/images/bandung/2.jpeg",
     "/images/bandung/3.jpeg",
+    "/images/bandung/4.jpeg",
     "/images/bandung/5.jpeg",
+    "/images/bandung/6.jpeg",
+    "/images/bandung/7.jpeg",
+    "/images/bandung/8.jpeg",
+    "/images/bandung/9.jpeg",
+    "/images/bandung/10.jpeg",
+    "/images/bandung/11.jpeg",
+    "/images/bandung/12.jpeg",
+    "/images/bandung/13.jpeg",
+    "/images/bandung/15.jpeg",
     "/images/bandung/tjilaki9.jpeg",
   ];
 
   const randomImages = [
-    "/images/bandung/braga.jpg",
-    "/images/bandung/1.jpeg",
-    "/images/bandung/2.jpeg",
-    "/images/bandung/3.jpeg",
-    "/images/bandung/5.jpeg",
-    "/images/bandung/tjilaki9.jpeg",
+    "/images/random/1.jpeg",
+    "/images/random/2.jpeg",
+    "/images/random/3.jpeg",
+    "/images/random/4.jpeg",
+    "/images/random/5.jpeg",
+    "/images/random/6.jpeg",
+    "/images/random/7.jpeg",
+    "/images/random/11.jpeg",
+    "/images/random/15.jpeg",
+    "/images/random/16.jpeg",
+    "/images/random/17.jpeg",
+    "/images/random/18.jpeg",
+    "/images/random/19.jpeg",
+    "/images/random/20.jpeg",
+    "/images/random/21.jpeg",
+    "/images/random/22.jpeg",
+    "/images/random/23.jpeg",
+    "/images/random/24.jpeg",
+    "/images/random/25.jpeg",
+    "/images/random/26.jpeg",
+
   ];
 
   // Render isi halaman
