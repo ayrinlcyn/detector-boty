@@ -18,6 +18,8 @@ function App() {
     "/images/bli/9.jpeg",
     "/images/bli/10.jpeg",
     "/images/bli/11.jpeg",
+    "/images/bli/12.jpeg",
+    "/images/bli/13.jpeg",
   ];
 
   const bandungImages = [
@@ -47,7 +49,12 @@ function App() {
     "/images/random/5.jpeg",
     "/images/random/6.jpeg",
     "/images/random/7.jpeg",
+    "/images/random/8.jpeg",
+    "/images/random/9.jpeg",
+    "/images/random/10.jpeg",
     "/images/random/11.jpeg",
+    "/images/random/12.jpeg",
+    "/images/random/14.jpeg",
     "/images/random/15.jpeg",
     "/images/random/16.jpeg",
     "/images/random/17.jpeg",
@@ -60,6 +67,8 @@ function App() {
     "/images/random/24.jpeg",
     "/images/random/25.jpeg",
     "/images/random/26.jpeg",
+    "/images/random/27.jpeg",
+
 
   ];
 
