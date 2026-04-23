@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import Gallery from './components/Gallery' // WAJIB ADA
+import { useState } from "react";
+import "./App.css";
+import Gallery from "./components/Gallery"; // WAJIB ADA
 
 function App() {
   const [page, setPage] = useState("home");
@@ -68,26 +68,41 @@ function App() {
     "/images/random/25.jpeg",
     "/images/random/26.jpeg",
     "/images/random/27.jpeg",
-
-
   ];
 
   // Render isi halaman
   const renderContent = () => {
     if (page === "home") {
-      return (
-        <div>
-          <h1>Haiii 👋</h1>
-          <p>
-            Ini adalah dokumentasi kecil kami berempat — Ayrin, Anya, Kay, dan
-            Felis.
-          </p>
-          <p>
-            Tempat ini berisi cerita, momen, dan hal random yang kami simpan
-            sebagai kenangan.
-          </p>
-        </div>
-      );
+      if (page === "home") {
+        return (
+          <div className="home">
+            <h1>
+              Welcome to Our Gallery <span className="love">🤍</span>
+            </h1>
+
+            <p>
+              Ini tempat kami menyimpan potongan-potongan cerita kecil kami —
+              Ayrin, Felis, Anya, dan Kay.
+            </p>
+
+            <p>
+              Bukan hanya sekedar foto, tapi momen yang pernah kami lewati. Ada yang
+              sederhana, ada yang tiba-tiba terasa berarti.
+            </p>
+
+            <p>
+              Dari sudut kota yang sepi, tawa yang tidak direncanakan, hingga
+              hal-hal kecil yang mungkin terlihat biasa.
+            </p>
+
+            <p>
+              Semua yang ada di sini adalah bagian dari perjalanan kami — tidak
+              selalu sempurna, tapi jujur dan apa adanya.
+            </p>
+
+          </div>
+        );
+      }
     }
 
     if (page === "bli") {
@@ -107,10 +122,18 @@ function App() {
     <>
       {/* Navbar */}
       <nav className="navbar">
-        <span className="link" onClick={() => setPage("home")}>Home</span>
-        <span className="link" onClick={() => setPage("bli")}>Bli</span>
-        <span className="link" onClick={() => setPage("bandung")}>Bandung</span>
-        <span className="link" onClick={() => setPage("random")}>Random Pict</span>
+        <span className="link" onClick={() => setPage("home")}>
+          Home
+        </span>
+        <span className="link" onClick={() => setPage("bli")}>
+          Bli
+        </span>
+        <span className="link" onClick={() => setPage("bandung")}>
+          Bandung
+        </span>
+        <span className="link" onClick={() => setPage("random")}>
+          Random Pict
+        </span>
       </nav>
 
       {/* Content */}
