@@ -91,7 +91,7 @@ function App() {
 
             <p>
               Dari sudut kota yang sepi, tawa yang tidak direncanakan, hingga
-              hal-hal kecil yang mungkin terlihat biasa.
+              hal-hal kecil yang mungkin terlihat biasa..
             </p>
 
             <p>
