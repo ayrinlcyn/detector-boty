@@ -86,8 +86,7 @@ function App() {
             </p>
 
             <p>
-              Bukan hanya sekedar foto, tapi momen yang pernah kami lewati. Ada yang
-              sederhana, ada yang tiba-tiba terasa berarti.
+              Bukan hanya sekedar foto, tapi momen yang pernah kami lewati.
             </p>
 
             <p>
